@@ -1,0 +1,37 @@
+{
+  "name": "ng-ns-storage",
+  "version": "1.0.0",
+  "description": "Namespaced storage provider.",
+  "main": "ng-ns-storage.js",
+  "scripts": {
+    "test": "node_modules/.bin/karma start"
+  },
+  "keywords": [
+    "angular",
+    "storage",
+    "localStorage",
+    "sessionStorage",
+    "namespace"
+  ],
+  "author": "vstukanov@me.com",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.6",
+    "angular-mocks": "^1.5.6",
+    "jasmine-core": "^2.4.1",
+    "jasmine-promises": "^0.4.1",
+    "karma": "^0.13.22",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "webpack": "^1.13.1"
+  },
+  "peerDependencies": {
+    "angular": "1.x"
+  },
+  "dependencies": {
+    "crc-32": "^0.4.0"
+  }
+}
